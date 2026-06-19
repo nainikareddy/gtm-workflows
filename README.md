@@ -1,7 +1,5 @@
 # GTM Superintelligence 
 
-A curated extract from [attentiontech/gtm-superintelligence](https://github.com/attentiontech/gtm-superintelligence) (Apache-2.0), adapted for the Datalogz GTM stack: **Attio + Slack + Gmail + Google Calendar**.
-
 Built as part of the GTM Engineering system to automate post-call intelligence, pipeline health monitoring, and account-level risk detection across a $934K+ active pipeline.
 
 ---
@@ -88,22 +86,14 @@ The YAML rubrics are the highest-value piece — they're a strong starting metho
 
 ---
 
-## Context: Datalogz GTM Engineering
+## Context: GTM Engineering
 
-This repo is one component of a broader GTM Engineering system built at Datalogz (Series A, BI governance/observability, April–June 2026):
+This repo is one component of a broader GTM Engineering system I built at a Series A startup in April–June 2026):
 
-- **Signal layer:** Warmly (website de-anon) + conference CSVs (Gartner DA + FabCon, ~600 leads) + LinkedIn migration signals + Webflow forms
+- **Signal layer:** Warmly (website de-anon) + conference CSVs + LinkedIn migration signals + Webflow forms
 - **Enrichment:** Apollo API enrichment pipeline (apollo_enrich.py, enrich_leads_apollo.py)
 - **Lead scoring:** Python composite model (9 signals, 4 tiers: Hot/Warm/Interested/Cold), writes to Attio
 - **ABM workflow:** Migration-triggered outbound (LISTEN → ENRICH → SCORE → PERSONALIZE → DEPLOY) — migration signals are the #1 predictor of new-logo wins
 - **Post-call intelligence:** This repo — call summary → Attio, pre-call briefs, followup drafts
 - **SEO + content:** DataForSEO baseline, LLM citation optimizer, competitor gap analysis
 - **Product analytics:** Mixpanel health scoring, lifecycle cohorts, customer health digest
-
----
-
-## License
-
-Adapted from [attentiontech/gtm-superintelligence](https://github.com/attentiontech/gtm-superintelligence) under **Apache-2.0**.
-
-Original repo: Apache-2.0 © Attention. This adaptation: same license.
