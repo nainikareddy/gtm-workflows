@@ -1,4 +1,4 @@
-# GTM Superintelligence — Datalogz Stack
+# GTM Superintelligence 
 
 A curated extract from [attentiontech/gtm-superintelligence](https://github.com/attentiontech/gtm-superintelligence) (Apache-2.0), adapted for the Datalogz GTM stack: **Attio + Slack + Gmail + Google Calendar**.
 
