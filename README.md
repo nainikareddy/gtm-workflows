@@ -2,7 +2,7 @@
 
 A curated extract from [attentiontech/gtm-superintelligence](https://github.com/attentiontech/gtm-superintelligence) (Apache-2.0), adapted for the Datalogz GTM stack: **Attio + Slack + Gmail + Google Calendar**.
 
-Built as part of the GTM Engineering system at Datalogz to automate post-call intelligence, pipeline health monitoring, and account-level risk detection across a $934K+ active pipeline.
+Built as part of the GTM Engineering system to automate post-call intelligence, pipeline health monitoring, and account-level risk detection across a $934K+ active pipeline.
 
 ---
 
